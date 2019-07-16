@@ -15,5 +15,15 @@
             "ReasonBobo\\PackageTest\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ReasonBobo\\PackageTest\\TestServiceProvider"
+            ],
+            "aliases": {
+                "Test": "ReasonBobo\\PackageTest\\Facade"
+            }
+        }
+    },
     "version": "1.0"
 }

@@ -1,0 +1,19 @@
+{
+    "name": "reason_bobo/package-test",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "reason_bobo",
+            "email": "reason_bobo@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ReasonBobo\\PackageTest\\": "src/"
+        }
+    },
+    "version": "1.0"
+}
